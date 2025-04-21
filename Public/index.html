@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Single-Channel ECG Signal Reader: Accurate and reliable ECG signal monitoring for healthcare applications.">
+    <meta name="keywords" content="ECG, Signal Reader, Healthcare, Embedded System, Node.js, React.js, Networking, Ubuntu Server">
+    <meta name="author" content="Trần Quốc Duy, Nguyễn Mạnh Ba">
+    <meta property="og:title" content="Single-Channel ECG Signal Reader">
+    <meta property="og:description" content="Accurate and reliable ECG signal monitoring for healthcare applications.">
+    <meta property="og:image" content="PIC/eds-logo.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://webapp.tqduy.id.vn/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Single-Channel ECG Signal Reader">
+    <meta name="twitter:description" content="Accurate and reliable ECG signal monitoring for healthcare applications.">
+    <meta name="twitter:image" content="PIC/eds-logo.svg">
+    <meta name="twitter:url" content="https://webapp.tqduy.id.vn/">
+    <title>Single-Channel ECG Signal Reader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="PIC/eds-logo.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">Ξ PLC&IIoT lab</div>
+            <button class="navbar-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#Product"><i class="fas fa-box"></i> Product</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home" style="background-image: url('path/to/dark_mode_background.jpg');">
+            <div class="hero-content">
+                <h1>Single-Channel ECG Signal Reader</h1>
+                <p>Accurate and reliable ECG signal monitoring for healthcare applications.</p>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <a href="https://webapp.tqduy.id.vn/" class="cta-button" aria-label="Visit Web App">Web app</a>
+                    <a href="https://github.com/TQDuysuke/Graduation-Thesis" target="_blank" class="cta-button" aria-label="Visit GitHub Repository">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="project-description" style="margin-top: 40px;">
+            <h2>Graduation Thesis Project</h2>
+            <h1>1-Lead ECG Signal Acquisition and Visualization</h1>
+            <p>Manage the full lifecycle of ECG signal acquisition, processing, and visualization with enterprise-level reliability and security.</p>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Embedded System</h3>
+                    <p>Handles ECG signal acquisition and data transmission.</p>
+                    <ul>
+                        <li>Real-time ECG signal acquisition using ESP32.</li>
+                        <li>Data buffering and transmission to the server.</li>
+                        <li>NTP-based timestamp synchronization.</li>
+                        <li>Queue-based data handling for reliability.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Node.js Server</h3>
+                    <p>Manages data storage, retrieval, and API endpoints.</p>
+                    <ul>
+                        <li>RESTful API for data storage and retrieval.</li>
+                        <li>API key and UID-based authentication.</li>
+                        <li>Hierarchical log storage by UID and date.</li>
+                        <li>CORS support for cross-origin requests.</li>
+                        <li>Error handling for invalid requests.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>React.js UI</h3>
+                    <p>Provides a user-friendly interface for visualizing and analyzing ECG data.</p>
+                    <ul>
+                        <li>Responsive line chart for ECG data visualization.</li>
+                        <li>Kalman filter for data smoothing.</li>
+                        <li>Zoom and scroll functionality for detailed analysis.</li>
+                        <li>Light and dark mode toggle.</li>
+                        <li>User authentication with UID and API key.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="network-ubuntu" style="margin-top: 40px;">
+            <h2>Networking and Ubuntu Server</h2>
+            <h1>Reliable Infrastructure for Data Transmission</h1>
+            <p>This project leverages robust networking principles and Ubuntu Server to ensure seamless data transmission and system reliability.</p>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Networking</h3>
+                    <p>Ensures secure and efficient communication between components.</p>
+                    <ul>
+                        <li>Uses TCP/IP for reliable data transmission.</li>
+                        <li>Implements secure communication with SSL/TLS encryption.</li>
+                        <li>Configures static IP for consistent device identification.</li>
+                        <li>Supports NAT and port forwarding for external access.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Ubuntu Server</h3>
+                    <p>Provides a stable and scalable environment for hosting services.</p>
+                    <ul>
+                        <li>Hosts the Node.js server for API management.</li>
+                        <li>Configures Nginx as a reverse proxy for load balancing.</li>
+                        <li>Implements firewall rules with UFW for enhanced security.</li>
+                        <li>Automates updates and backups for system reliability.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="about">
+            <h2>About the Project</h2>
+            <p>This project is developed by:</p>
+            <div class="contributors">
+                <div class="contributor-card">
+                    <img src="PIC/TranDuy.png" alt="Trần Quốc Duy">
+                    <h3>Trần Quốc Duy</h3>
+                    <p>Lead Developer</p>
+                    <p>Specializes in embedded systems and real-time data processing.</p>
+                    <div class="social-links">
+                        <a href="mailto:duyb2110270@student.ctu.edu.vn" aria-label="Email Trần Quốc Duy">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/duy" target="_blank" aria-label="LinkedIn Trần Quốc Duy">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contributor-card">
+                    <img src="PIC/ManhBa.jpg" alt="Nguyễn Mạnh Ba">
+                    <h3>Nguyễn Mạnh Ba</h3>
+                    <p>Software Engineer</p>
+                    <p>Focuses on backend development and API integration.</p>
+                    <div class="social-links">
+                        <a href="mailto:ba2110268@student.ctu.edu.vn" aria-label="Email Nguyễn Mạnh Ba">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/ba" target="_blank" aria-label="LinkedIn Nguyễn Mạnh Ba">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="about-details">
+                <h3>Project Vision</h3>
+                <p>The Single-Channel ECG Signal Reader project aims to revolutionize healthcare monitoring by providing a reliable, scalable, and user-friendly solution for ECG signal acquisition and visualization. Our goal is to bridge the gap between cutting-edge technology and practical healthcare applications.</p>
+                <h3>Core Objectives</h3>
+                <ul>
+                    <li>Develop a robust embedded system for real-time ECG signal acquisition.</li>
+                    <li>Ensure secure and efficient data transmission using modern networking protocols.</li>
+                    <li>Provide an intuitive user interface for data visualization and analysis.</li>
+                    <li>Maintain enterprise-grade reliability and scalability for all components.</li>
+                </ul>
+                <h3>Technological Stack</h3>
+                <p>This project leverages a diverse set of technologies to achieve its objectives:</p>
+                <ul>
+                    <li><strong>Embedded Systems:</strong> ESP32 microcontroller for real-time data acquisition.</li>
+                    <li><strong>Backend:</strong> Node.js server for data storage, retrieval, and API management.</li>
+                    <li><strong>Frontend:</strong> React.js for a responsive and interactive user interface.</li>
+                    <li><strong>Networking:</strong> Secure communication using SSL/TLS and TCP/IP protocols.</li>
+                    <li><strong>Infrastructure:</strong> Ubuntu Server with Nginx for hosting and load balancing.</li>
+                </ul>
+                <h3>Future Plans</h3>
+                <p>We are committed to continuous improvement and innovation. Our future plans include:</p>
+                <ul>
+                    <li>Integrating advanced machine learning algorithms for ECG signal analysis.</li>
+                    <li>Expanding support for multi-lead ECG systems.</li>
+                    <li>Enhancing user experience with additional customization options.</li>
+                    <li>Collaborating with healthcare providers for real-world testing and feedback.</li>
+                </ul>
+                <h3>Testimonials</h3>
+                <blockquote>
+                    "This project has the potential to transform how we monitor and analyze ECG signals. The team's dedication to quality and innovation is truly commendable." - Dr. Nguyễn Văn Khanh
+                </blockquote>
+                <blockquote>
+                    "The combination of cutting-edge technology and practical application makes this project a game-changer in the healthcare industry." - Trường Bách Khoa, Đại học Cần Thơ
+                </blockquote>
+            </div>
+        </section>
+        <section class="container" id="Product" style="margin-top: 40px;">
+            <h2>Product Introduction</h2>
+            <div class="product-layout">
+                <div class="product-images">
+                    <div class="slide fade">
+                        <img src="PIC/product (1).jpg" alt="Product Feature 1" class="product-image">
+                        <div class="caption">Duo electrode on hand</div>
+                    </div>
+                    <div class="slide fade">
+                        <img src="PIC/product (2).jpg" alt="Product Feature 2" class="product-image">
+                        <div class="caption">Electrode</div>
+                    </div>
+                    <div class="slide fade">
+                        <img src="PIC/product (3).jpg" alt="Product Feature 3" class="product-image">
+                        <div class="caption">Real-time ECG Signal Acquisition Solution</div>
+                    </div>
+                </div>
+                <div class="product-content">
+                    <!-- <h3>About the Product</h3> -->
+                    <p>The Single-Channel ECG Signal Reader is a cutting-edge solution designed to provide accurate and reliable ECG signal monitoring. It integrates advanced hardware and software to ensure seamless operation and user-friendly interaction.</p>
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Real-time ECG signal acquisition using state-of-the-art sensors.</li>
+                        <li>Secure data transmission with SSL/TLS encryption.</li>
+                        <li>Interactive data visualization with zoom and scroll functionality.</li>
+                        <li>Scalable backend infrastructure for data storage and retrieval.</li>
+                        <li>Support for light and dark mode for enhanced user experience.</li>
+                    </ul>
+                    <h4>Applications</h4>
+                    <p>This product is ideal for healthcare providers, researchers, and individuals seeking reliable ECG monitoring solutions. It can be used in hospitals, clinics, and even at home for personal health tracking.</p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="emails" style="margin-top: 40px;">
+            <h2>Contact Contributors</h2>
+            <p>If you have any questions or need further information, feel free to reach out to the contributors via email:</p>
+            <ul style="list-style: none; padding: 0; text-align: center;">
+                <li style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+                    <i class="fas fa-envelope" style="color: #ffffff;"></i>
+                    <span>Trần Quốc Duy: <a href="mailto:duyb2110270@student.ctu.edu.vn" style="color: #ffffff;">duyb2110270@student.ctu.edu.vn</a></span>
+                </li>
+                <li style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                    <i class="fas fa-envelope" style="color: #ffffff;"></i>
+                    <span>Nguyễn Mạnh Ba: <a href="mailto:ba2110268@student.ctu.edu.vn" style="color: #ffffff;">ba2110268@student.ctu.edu.vn</a></span>
+                </li>
+            </ul>
+            <div class="contact-form">
+                <div class="project-card" style="width: auto;">
+                    <h3>Contact Us</h3>
+                    <p>If you have any inquiries or need assistance, please fill out the form below or contact us directly.</p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 3/2 Street, Can Tho City, Viet Nam</li>
+                        <li><i class="fas fa-phone"></i> +84 383223848</li>
+                        <li><i class="fas fa-envelope"></i> duyb2110270@student.ctu.edu.vn</li>
+                    </ul>
+                </div>
+                <form action="/submit-form" method="POST" class="contact-form-fields project-card" style="width: auto;">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>&copy; 2023 Trường Bách Khoa, Đại học Cần Thơ. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script>
+        // Dynamically add gradient regions
+        const gradientDiv = document.createElement('div');
+        gradientDiv.className = 'gradient';
+        document.body.insertBefore(gradientDiv, document.body.firstChild);
+    </script>
+</body>
+</html>
